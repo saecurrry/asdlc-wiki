@@ -1,7 +1,7 @@
-# Requirements
+# Business requirements
 
-Maintain the BRD, stable requirement IDs, business rules, measurable quality requirements, initiatives and epics. Link approved source versions.
+Draft artifact contracts, not completed records. Copy/rename artifacts to stable IDs for repeated stories, sprints, reviews and decisions.
 
-No records yet.
+- [BRD](brd.md)
 
 [Project home](../index.md)

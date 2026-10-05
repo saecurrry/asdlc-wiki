@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1-draft",
+  "template": true,
+  "project_id": null,
+  "state_revision": 0,
+  "current_stage": null,
+  "current_sprint": null,
+  "created_at": null,
+  "updated_at": null,
+  "stages": {
+    "discovery": {
+      "status": "not_started",
+      "input_versions": [],
+      "output_versions": [],
+      "review_ids": [],
+      "approval_ids": []
+    },
+    "business_requirements": {
+      "status": "not_started",
+      "input_versions": [],
+      "output_versions": [],
+      "review_ids": [],
+      "approval_ids": []
+    },
+    "technical_hld": {
+      "status": "not_started",
+      "input_versions": [],
+      "output_versions": [],
+      "review_ids": [],
+      "approval_ids": []
+    },
+    "sprint_planning": {
+      "status": "not_started",
+      "input_versions": [],
+      "output_versions": [],
+      "review_ids": [],
+      "approval_ids": []
+    },
+    "development": {
+      "status": "not_started",
+      "input_versions": [],
+      "output_versions": [],
+      "review_ids": [],
+      "approval_ids": []
+    },
+    "testing": {
+      "status": "not_started",
+      "input_versions": [],
+      "output_versions": [],
+      "review_ids": [],
+      "approval_ids": []
+    },
+    "sprint_review": {
+      "status": "not_started",
+      "input_versions": [],
+      "output_versions": [],
+      "review_ids": [],
+      "approval_ids": []
+    }
+  }
+}

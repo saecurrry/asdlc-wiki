@@ -1,7 +1,7 @@
 # Architecture
 
-Maintain HLD, C4 context/container diagrams and selective components, key sequences, interfaces, data ownership, cloud/partner choices and decision links.
+Draft artifact contracts, not completed records. Copy/rename artifacts to stable IDs for repeated stories, sprints, reviews and decisions.
 
-No records yet.
+- [HLD](hld.md)
 
 [Project home](../index.md)

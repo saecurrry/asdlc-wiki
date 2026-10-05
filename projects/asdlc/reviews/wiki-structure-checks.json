@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "markdown_files_checked": 90,
+    "broken_links": [],
+    "approval_report_and_evidence_hashes": "verified",
+    "preserved_baseline_files": 58,
+    "runtime_state_created": false
+  },
+  "scope": "navigation/ownership tidy and explicit user foundation-report approval; no runtime or publication approval"
+}

@@ -1,7 +1,7 @@
 # Discovery
 
-Record business problem, users, outcomes, scope, constraints, glossary, short question rounds and unresolved facts. Confirm answers before advancing.
+Draft artifact contracts, not completed records. Copy/rename artifacts to stable IDs for repeated stories, sprints, reviews and decisions.
 
-No records yet.
+- [Brief](brief.md)
 
 [Project home](../index.md)

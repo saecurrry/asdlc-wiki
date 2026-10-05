@@ -1,0 +1,14 @@
+{
+  "source_repository": "https://github.com/saecurrry/asdlc",
+  "source_version": "local uncommitted foundation; byte hashes below",
+  "schema_version": 1,
+  "sha256": {
+    "approvals.json": "0189178663c1112eef78f471aee9201befecb7ca5b869f1c1d0c98ef97200a99",
+    "decisions.json": "a8cc4c19b4d8258c117eeb1f7f40b6cf1dfa0aa8559d440a40de094c14ea5790",
+    "project-state.json": "86f350f0d4c8086c979152ae2b7d3efbbbddfad89d820272d08ccd8200d116f4",
+    "questions.json": "81fc57f18dbb511a9ea670082055a12b4720419bef0827388a2e5c6ceedb9e2b",
+    "raid.json": "2c32add575283dfc6d3bf0a296c18bacca2c8282bae6b01d8834558673ea8811",
+    "review-findings.json": "72db003171d5bf34d36ff60530067fd04615e69a55cad6acb87b22d2d1e3d8be",
+    "stage-result.json": "b3b016f97f65fbce8568e7fefde9f2a1bad605b24d7c1859347c74e34a1b1d87"
+  }
+}

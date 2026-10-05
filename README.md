@@ -1,27 +1,27 @@
-# ASDLC knowledge wiki
+# ASDLC documentation and knowledge wiki
 
-Shared knowledge and project records for the agentic SDLC.
+This is the persistent workspace ASDLC agents use for project documentation, decisions, evidence and shared learning. Open this repository root as one Obsidian vault.
 
-## Navigate
+## Start here
 
-- [Standards](standards/index.md)
-- [Patterns](patterns/index.md)
-- [Knowledge](knowledge/index.md)
-- [Templates](templates/index.md)
-- [Projects](projects/index.md)
-- [Contribution and learning workflow](CONTRIBUTING.md)
-- [Agent instructions](AGENTS.md)
+- [ASDLC project home](projects/asdlc/index.md) and [current living plan](projects/asdlc/build-plan.md)
+- [Approved foundation report](projects/asdlc/sprints/foundation-report.md) and [human approval register](projects/asdlc/approvals/index.md)
+- [All projects](projects/index.md)
+- [Structure and ownership](structure.md), [agent instructions](AGENTS.md), [contribution workflow](CONTRIBUTING.md)
 
-## Use with Obsidian
+## Shared resources
 
-Clone this repository and open the cloned root folder as an existing vault. Use one vault for the whole repository so projects can link to shared knowledge. Markdown and relative links work in GitHub and Obsidian. Commit and push edits; pull remote updates before working. Git synchronisation is separate from opening the vault.
+- [Standards](standards/index.md), [patterns](patterns/index.md), [knowledge](knowledge/index.md)
+- [Current artifact templates](templates/index.md), [runtime schemas](schemas/index.md)
 
-## Create a project
+Standards require actual human owner approval; reusable patterns/knowledge require recorded independent challenge. Project lessons are captured before shared promotion.
 
-Copy `templates/project/` to `projects/<project-id>/`. Use a lowercase hyphenated ID. Replace template placeholders and add the project to [the project index](projects/index.md). Follow [template instructions](templates/index.md). The template contains no active project or approved decisions.
+## Create or resume a project
 
-## Knowledge ownership
+Follow [template instructions](templates/index.md), use a lowercase hyphenated project ID, preserve existing work and add the project to the index. Read only the current project and relevant shared entries. Supplied ASDLC requirements are established; do not restart discovery.
 
-Standards are reviewed obligations; patterns are reusable approaches; knowledge records evidence and troubleshooting. Project lessons start locally and are reviewed before promotion. The orchestrator owns structured project state; readable status and RAID are views of canonical records once connected to the tool.
+Canonical discovery state is projects/<id>/state.json, created by the tool. Until authorised init, status/RAID are labelled editable draft views; archive them before replacement. Later delivery-stage templates do not enable later runtime capabilities. Template copying creates no execution state or approvals.
 
-This repository is the knowledge structure, not a running orchestrator. It is public: publish only material intended for public access.
+## History, sync and privacy
+
+Preserved baseline snapshots retain exact review/evidence versions; evolving project work stays outside those snapshots. Current indexes and approval records establish later status without rewriting history. Obsidian settings are local presentation preferences, not authoritative workflow state. Git synchronisation is separate from vault use; publish only with explicit authorisation. This repository is public: exclude credentials, private personal/confidential data and sensitive operational details from publishable records.

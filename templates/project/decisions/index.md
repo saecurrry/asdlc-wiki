@@ -1,7 +1,7 @@
 # Decisions
 
-Record stable decision IDs, context, alternatives, rationale, owner, status and affected artifacts. Never infer approval.
+Draft artifact contracts, not completed records. Copy/rename artifacts to stable IDs for repeated stories, sprints, reviews and decisions.
 
-No records yet.
+- [Decision](decision.md)
 
 [Project home](../index.md)

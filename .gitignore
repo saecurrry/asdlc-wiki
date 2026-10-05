@@ -3,3 +3,7 @@
 .obsidian/cache/
 .DS_Store
 Thumbs.db
+
+projects/*/.lock
+
+projects/*/.asdlc-*

@@ -1,0 +1,3 @@
+# Approval and review manifests bind exact file bytes, including line endings.
+# Preserve immutable evidence across commits and checkouts.
+* -text

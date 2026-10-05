@@ -20,7 +20,7 @@ Use lowercase hyphenated filenames, stable IDs, YAML frontmatter and relative Ma
 
 ## Project state
 
-Canonical records are structured files under the project's state/. Markdown explains and summarises them. Do not manually change generated status/RAID after integration without updating the canonical records through the orchestrator. Template Markdown is initially editable until generation is implemented and clearly marked.
+The sole canonical runtime record is projects/<id>/state.json, conforming to the version 1 tool schema. state/ contains contract documentation; legacy split records are archived, inert references. Initialise through ASDLC, never by filling a JSON template. Current runtime implements discovery only; later-stage documents remain planning contracts. Markdown explains and summarises canonical data. Do not manually change generated status/RAID after integration without updating the canonical records through the orchestrator. Pre-init status/RAID drafts are editable and clearly labelled; archive them before authorised init replaces them with generated views. Source documents remain separately editable. See [template guide](templates/index.md) and [schema contract](schemas/index.md).
 
 ## Concurrent edits
 

@@ -1,7 +1,7 @@
 # Lessons
 
-Capture project lessons with evidence, applicability and limitations. Propose reusable entries through the shared contribution workflow.
+Draft artifact contracts, not completed records. Copy/rename artifacts to stable IDs for repeated stories, sprints, reviews and decisions.
 
-No records yet.
+- [Project lesson](lesson.md)
 
 [Project home](../index.md)

@@ -1,0 +1,54 @@
+{
+  "record_type": "documentation_approval",
+  "schema_version": 1,
+  "id": "APPROVAL-FOUNDATION-REPORT-001",
+  "project_id": "asdlc",
+  "decision": "approved",
+  "human_actor": "user",
+  "human_action_date": "2026-10-05",
+  "recorded_at": "2026-10-05T21:49:34.448857+00:00",
+  "authorization": {
+    "source": "direct user message in this Codex chat",
+    "text": "review the wiki structuer and tidy up as needed. Approve the foundation report"
+  },
+  "target": {
+    "path": "../baseline/planning/sprint-report.md",
+    "sha256": "c9df91d2dadc2c46f5d5b793c798196fd1da5314ace03019b2df6b16970bbd7a",
+    "hash_algorithm": "sha256_file_bytes"
+  },
+  "evidence": [
+    {
+      "path": "../baseline/planning/evidence/test-run.json",
+      "sha256": "c1aee04f301143042322476716e85d3b2a6268ad1b07e383269c10974789038d"
+    },
+    {
+      "path": "../baseline/planning/reviews/implementation-final-review.md",
+      "sha256": "57703c58eaee6165d05a9b2cb0045cbfdf83ddd122dd904eea4586fb84dce8b8"
+    },
+    {
+      "path": "../baseline/planning/reviews/design-final-review.md",
+      "sha256": "f3efedf5b24cb7e4b002895ad81d2d3190bef6844acc3c4cca6e2ceb8054942d"
+    },
+    {
+      "path": "../baseline/planning/evidence/codex-smoke.json",
+      "sha256": "59ad8962b7fa88983668a6b1ddf300f47ddd251684569e4f573322130f68324c"
+    },
+    {
+      "path": "../baseline/planning/evidence/real-fixture-review.json",
+      "sha256": "a203f29d2368e4f37a3c1e5ba00676121bb217a4354d369860a62ccee71efe63"
+    },
+    {
+      "path": "../baseline/planning/evidence/real-fixture-worker.json",
+      "sha256": "4ac01970eb302c17ab06288b328b9dda643c0d5ebc9becd0536f162e7f13d0d1"
+    }
+  ],
+  "scope": "Approval of the exact foundation increment report and its stated delivered scope, evidence and limitations.",
+  "exclusions": [
+    "No separate approval of requirements, architecture or backlog",
+    "No approval of later sprint scope or live delivery",
+    "No push, merge or deployment permission",
+    "No conversion of synthetic fixture approvals into real project approvals"
+  ],
+  "invalidation": "This acceptance remains bound to these bytes. Changed target/evidence versions require impact assessment and renewed acceptance; preserve this historical record.",
+  "runtime_binding": "Documentary report approval recorded by the orchestrator. The discovery-only runtime has no foundation-report gate; no runtime state transition or discovery approval is fabricated."
+}

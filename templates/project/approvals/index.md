@@ -1,7 +1,7 @@
 # Approvals
 
-Store attributable human approvals referencing exact artifact hashes/commits and scope. Review pass is not human approval. Changed artifacts require impact assessment.
+Draft artifact contracts, not completed records. Copy/rename artifacts to stable IDs for repeated stories, sprints, reviews and decisions.
 
-No records yet.
+- [Human approval](approval.md)
 
 [Project home](../index.md)

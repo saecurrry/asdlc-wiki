@@ -1,32 +1,20 @@
+---
+project_id: PROJECT_ID
+status: draft
+---
+
 # Project status
 
-Template only; no execution or approval has occurred. Editable draft until connected to the status generator.
+Editable pre-init draft; no executed state or approvals. Archive this draft before authorised init, which replaces it with an orchestrator-generated view.
 
-| Item | Value |
+| Field | Value |
 |---|---|
-| Project | PROJECT_ID |
-| Stage | Not started |
-| Sprint | None |
-| Health | Not assessed |
-| Next action | Initialise project and begin discovery |
-| Owner | Unassigned |
+| Outcome / source | Unknown |
+| Current executable stage | Not initialised |
+| Exact approved inputs/artifact/code | None |
+| Pending questions / findings | Not assessed |
+| Human acceptance | Pending |
+| Next permitted action | Inspect supplied intent and configure paths; no live dispatch |
+| Canonical revision / dispatch / repairs | No state created |
 
-## Stage progress
-
-| Stage | Status | Artifact/version | Review | Approval |
-|---|---|---|---|---|
-| Discovery | Not started | — | — | — |
-| Business requirements | Not started | — | — | — |
-| Technical HLD | Not started | — | — | — |
-| Stories and sprint planning | Not started | — | — | — |
-| Sprint development | Not started | — | — | — |
-| Sprint testing | Not started | — | — | — |
-| Sprint review and approval | Not started | — | — | — |
-
-## Blockers and pending questions
-
-None recorded; this does not mean discovery is complete.
-
-## Evidence and recent changes
-
-No execution evidence.
+[Project home](index.md) · [RAID](raid.md) · [State contract](state/index.md)

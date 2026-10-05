@@ -1,0 +1,21 @@
+# Wiki structure and document ownership
+
+| Location | Purpose | How to use / change |
+|---|---|---|
+| README.md | Entry point | Start with current project/status and this map |
+| projects/<id>/index.md and build-plan.md | Current project navigation and living plan | Resume current evidence, blockers and next permitted action |
+| Project discovery/, requirements/, architecture/, backlog/, sprints/ | Stage source artifacts | Use exact versions, review independently and record separate human gates |
+| Project decisions/, reviews/, approvals/, lessons/ | Decision and evidence registers | Preserve attribution and history; add records to indexes |
+| Project state.json | Discovery runtime canonical record after init | Orchestrator/schema/revision/lock only; do not edit manually |
+| Project state/ | Contract notes and inert legacy references | Never treat legacy split templates as executable state |
+| Project baseline/ | Preserved foundation snapshot, including source evidence | Do not reorganise or overwrite; its manifests/relative links bind original versions |
+| standards/ | Mandatory obligations after recorded owner approval | Unapproved proposals/indexes are not mandatory standards |
+| patterns/ | Reviewed reusable approaches | Record applicability, evidence and limitations |
+| knowledge/ | Reviewed learning for reuse | Capture project lessons first; challenge before promotion |
+| templates/ | Current reusable artifact contracts | Copy to new projects; never activate state by copying JSON |
+| schemas/ | Exact runtime contracts and provenance | Upgrade from an explicitly reviewed runtime version |
+| .obsidian/ | User's local vault configuration | Preserve personal settings; not workflow state |
+
+Keep one current project home and living plan. Indexes link to source artifacts rather than duplicating mutable documents. Historical baselines can contain older status wording: current status and later exact-version approvals supersede it without altering its evidence. Dead links or unknown owners remain explicit work, not invented facts.
+
+Use standard relative Markdown links and stable IDs. Current runtime only executes serial discovery; later stage documents are planning contracts. Git publication and human acceptance are separate actions. [Home](README.md).

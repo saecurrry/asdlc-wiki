@@ -1,7 +1,7 @@
 # Reviews
 
-Store independent challenger reports with reviewed versions, verdicts, findings, evidence, severity, owning stage and resolution history.
+Draft artifact contracts, not completed records. Copy/rename artifacts to stable IDs for repeated stories, sprints, reviews and decisions.
 
-No records yet.
+- [Independent review](review.md)
 
 [Project home](../index.md)

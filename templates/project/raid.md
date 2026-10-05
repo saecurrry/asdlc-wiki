@@ -1,8 +1,13 @@
-# RAID log
+---
+project_id: PROJECT_ID
+status: draft
+---
 
-Template only. After integration this is generated from [canonical RAID records](state/raid.json).
+# RAID
 
-| ID | Type | Description | Owner | Impact | Response | Status | Source | Updated |
-|---|---|---|---|---|---|---|---|---|
+Editable pre-init draft. Empty is not proof of no risk. Archive before runtime-generated replacement.
 
-Types: risk, assumption, issue, dependency. Unconfirmed assumptions cannot serve as approved requirements. Keep decisions in decisions/ and state/decisions.json.
+| ID | Kind: risk/assumption/issue/dependency | Source | Owner | Impact | Response / validation | Status | Created / updated |
+|---|---|---|---|---|---|---|---|
+
+Assumptions remain unconfirmed until validated. After activation, use orchestrator record/raid-status commands. Generated question:/finding: IDs are reserved. [Project home](index.md).

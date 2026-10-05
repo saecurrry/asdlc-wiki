@@ -1,7 +1,9 @@
 # Sprints
 
-Use a folder per sprint containing plan, stories/evidence links and report. Report difficult work, blockers, defects, lessons and proceed/hold recommendation.
+Draft artifact contracts, not completed records. Copy/rename artifacts to stable IDs for repeated stories, sprints, reviews and decisions.
 
-No records yet.
+- [Sprint plan](sprint-plan.md)
+- [Test evidence](test-evidence.md)
+- [Sprint report](sprint-report.md)
 
 [Project home](../index.md)

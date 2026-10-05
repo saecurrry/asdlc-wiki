@@ -1,7 +1,7 @@
 # Backlog
 
-Maintain initiatives, epics and small stories; requirement links, acceptance criteria/Gherkin, dependencies, verification and serial/parallel eligibility.
+Draft artifact contracts, not completed records. Copy/rename artifacts to stable IDs for repeated stories, sprints, reviews and decisions.
 
-No records yet.
+- [Story](story.md)
 
 [Project home](../index.md)
