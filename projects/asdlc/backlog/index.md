@@ -1,7 +1,5 @@
 # Backlog
 
-Maintain initiatives, epics and small stories; requirement links, acceptance criteria/Gherkin, dependencies, verification and serial/parallel eligibility.
+[Current backlog](backlog.md) contains increments, stories, acceptance criteria, dependencies and execution eligibility. Later scope remains proposed until its gates pass.
 
-Draft reference: [Backlog](../baseline/planning/backlog.md). Human approval pending.
-
-[Project home](../index.md)
+[Requirements](../requirements/requirements.md) · [HLD](../architecture/hld.md) · [Foundation report](../sprints/foundation-report.md) · [Project home](../index.md)

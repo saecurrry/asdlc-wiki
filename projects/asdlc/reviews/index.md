@@ -2,7 +2,7 @@
 
 Store independent challenger reports with reviewed versions, verdicts, findings, evidence, severity, owning stage and resolution history.
 
-Draft reference: [Independent final code review](../baseline/planning/reviews/implementation-final-review.md). Human approval pending.
+Draft reference: [Independent final code review](foundation-implementation-final-review.md). Human approval pending.
 
 [Project home](../index.md)
 
@@ -14,3 +14,15 @@ Draft reference: [Independent final code review](../baseline/planning/reviews/im
 ## Wiki structure tidy
 
 [Executed structure and approval-hash checks](wiki-structure-checks.json): 90 Markdown files checked, no broken links, 58 baseline hashes preserved, report/evidence approval hashes verified. This is the orchestrator's structural verification, not a new independent stage review.
+
+## Visible waiting state
+
+[Independent status-visibility review](status-visibility-review.md): 21 tests and waiting/request/resume probes passed. The current status page distinguishes an actual user request from future approval gates; prior foundation-report acceptance is unchanged.
+
+## Foundation reviews
+
+- [Final design review](foundation-design-final-review.md)
+- [Final implementation review](foundation-implementation-final-review.md)
+- [Initial implementation findings](foundation-implementation-review.md) and [repair review](foundation-implementation-rereview.md)
+
+These readable presentations retain provenance to immutable originals and historical target hashes. They do not approve edited current requirements/design/planning documents.

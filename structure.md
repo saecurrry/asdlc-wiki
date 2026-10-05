@@ -4,7 +4,7 @@
 |---|---|---|
 | README.md | Entry point | Start with current project/status and this map |
 | projects/<id>/index.md and build-plan.md | Current project navigation and living plan | Resume current evidence, blockers and next permitted action |
-| Project discovery/, requirements/, architecture/, backlog/, sprints/ | Stage source artifacts | Use exact versions, review independently and record separate human gates |
+| Project discovery/, requirements/, architecture/, backlog/, sprints/ | Current working artifacts; default reading/editing locations | Use exact versions, review independently and record separate human gates |
 | Project decisions/, reviews/, approvals/, lessons/ | Decision and evidence registers | Preserve attribution and history; add records to indexes |
 | Project state.json | Discovery runtime canonical record after init | Orchestrator/schema/revision/lock only; do not edit manually |
 | Project state/ | Contract notes and inert legacy references | Never treat legacy split templates as executable state |
@@ -19,3 +19,5 @@
 Keep one current project home and living plan. Indexes link to source artifacts rather than duplicating mutable documents. Historical baselines can contain older status wording: current status and later exact-version approvals supersede it without altering its evidence. Dead links or unknown owners remain explicit work, not invented facts.
 
 Use standard relative Markdown links and stable IDs. Current runtime only executes serial discovery; later stage documents are planning contracts. Git publication and human acceptance are separate actions. [Home](README.md).
+
+For ASDLC, use [current requirements](projects/asdlc/requirements/requirements.md), [HLD](projects/asdlc/architecture/hld.md), [backlog](projects/asdlc/backlog/backlog.md) and [full foundation report](projects/asdlc/sprints/foundation-report.md). Its baseline remains an archive; normal project navigation should not route through that archive.

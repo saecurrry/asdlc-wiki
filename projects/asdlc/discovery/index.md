@@ -1,7 +1,7 @@
-# Discovery
+# Business intent and discovery sources
 
-Record business problem, users, outcomes, scope, constraints, glossary, short question rounds and unresolved facts. Confirm answers before advancing.
+[Confirmed supplied ASDLC brief](confirmed-brief.txt) is the established input. Do not restart ASDLC discovery. [Original starter pack](starter-pack.md) remains contextual source material; the later supplied brief supersedes its old defaults and bootstrap restrictions.
 
-Draft reference: [Established supplied brief](../baseline/planning/confirmed-brief.txt). Human approval pending.
+For future projects, use the current discovery template and short question rounds for genuinely unknown intent.
 
-[Project home](../index.md)
+[Requirements](../requirements/requirements.md) · [Project home](../index.md)

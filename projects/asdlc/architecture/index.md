@@ -1,7 +1,5 @@
 # Architecture
 
-Maintain HLD, C4 context/container diagrams and selective components, key sequences, interfaces, data ownership, cloud/partner choices and decision links.
+[Current technical HLD](hld.md) contains context/container views, runtime ownership, state integrity, operational constraints and material implementation choices. Human approval remains pending.
 
-Draft reference: [Architecture](../baseline/planning/architecture.md). Human approval pending.
-
-[Project home](../index.md)
+[Requirements](../requirements/requirements.md) · [Backlog](../backlog/backlog.md) · [Project home](../index.md)

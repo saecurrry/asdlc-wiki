@@ -1,7 +1,5 @@
 # Requirements
 
-Maintain the BRD, stable requirement IDs, business rules, measurable quality requirements, initiatives and epics. Link approved source versions.
+[Current requirements](requirements.md) contain the outcomes, measurable requirements, scope, rules and initiative/epic coverage. Edit the current document for subsequent work; its human approval remains pending.
 
-Draft reference: [Requirements](../baseline/planning/requirements.md). Human approval pending.
-
-[Project home](../index.md)
+[Supplied business brief](../discovery/confirmed-brief.txt) · [HLD](../architecture/hld.md) · [Backlog](../backlog/backlog.md) · [Project home](../index.md)

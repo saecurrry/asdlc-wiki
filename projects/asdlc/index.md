@@ -15,7 +15,7 @@ Foundation report: [approved view](sprints/foundation-report.md), [actual human 
 
 ## Stage documents and registers
 
-- [Discovery sources](discovery/index.md), [requirements](requirements/index.md), [architecture](architecture/index.md), [backlog](backlog/index.md)
+- [Supplied brief](discovery/confirmed-brief.txt), [requirements](requirements/requirements.md), [HLD](architecture/hld.md), [backlog](backlog/backlog.md)
 - [Sprints/reports](sprints/index.md), [decisions](decisions/index.md), [reviews](reviews/index.md), [approvals](approvals/index.md), [lessons](lessons/index.md)
 - [State contract](state/index.md)
 
