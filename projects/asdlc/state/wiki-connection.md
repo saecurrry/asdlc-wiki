@@ -4,7 +4,7 @@ Confirmed by the user: [saecurrry/asdlc-wiki](https://github.com/saecurrry/asdlc
 
 Local clone: `C:/Coding/asdlc-cloud/.asdlc-local/asdlc-wiki`. Branch: `main`; origin: `https://github.com/saecurrry/asdlc-wiki.git`. This clone is ignored by the tool repository and has its own Git history. Open its root as an existing Obsidian vault. The user subsequently authorised repository sync; this permission covers the current changes. Publication permissions remain scoped to user instructions.
 
-The existing standards/, patterns/, knowledge/ and templates/ are preserved. Project documentation lives under projects/asdlc/. Current working documents live directly under project stage folders. projects/asdlc/baseline/ retains the immutable foundation snapshot and its provenance manifest. Copies are not new approvals and template state is not executable evidence.
+The existing standards/, patterns/, knowledge/ and templates/ are preserved. Project documentation lives under projects/asdlc/. Current working documents live directly under project stage folders. Historical foundation evidence is referenced through immutable Git commit links; the duplicate baseline folder has been removed. Copies are not new approvals and template state is not executable evidence.
 
 ## Runtime compatibility
 

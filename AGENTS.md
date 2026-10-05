@@ -38,4 +38,4 @@ Keep the target project-status.md explicit about current activity, waiting owner
 
 ## Current document locations
 
-Read and edit working documents in projects/<id>/discovery/, requirements/, architecture/, backlog/ and sprints/. Use the current project home and living plan. baseline/ holds immutable historical foundation snapshots and source evidence; it is not the default place for working documents. Read historical inputs only when checking version-specific reviews/approval provenance. Moving a presentation does not transfer approval to changed content.
+Read and edit working documents in projects/<id>/discovery/, requirements/, architecture/, backlog/ and sprints/. Use the current project home and living plan. Historical foundation evidence is referenced through immutable Git commit links; no duplicate baseline folder is maintained. Read historical inputs only when checking version-specific reviews/approval provenance. Moving a presentation does not transfer approval to changed content.

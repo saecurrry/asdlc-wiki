@@ -1,7 +1,7 @@
 ---
 project_id: asdlc
 status: reviewed-source-presentation
-source_ref: ../baseline/planning/reviews/design-review.md
+source_ref: https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/reviews/design-review.md
 source_sha256: 5b5aa73b5c6bfbba4c678224e8f30dc1fd48dcf6781e6100863fa3d1de4b5871
 ---
 
@@ -15,18 +15,18 @@ Hashes are SHA-256 of the complete on-disk file bytes, including line endings. T
 
 | Target | SHA-256 |
 |---|---|
-| [Requirements](../baseline/planning/requirements.md) | `458FF57011731AD6FE56467513CDD6C5C89822BD92429080FA8FDF6D57080435` |
-| [Architecture](../baseline/planning/architecture.md) | `C652F892A888E2C8EA176672BCBD95CE8DE99946AE0170B454841FD3AC008120` |
-| [Backlog](../baseline/planning/backlog.md) | `9988701250EB5D46D237F6962F4EFCDCFFAC35E1C6719BD030ABCF2F3A80609F` |
-| [Build plan](../baseline/planning/build-plan.md) | `8A24BA703281C31548105BC3684EB9BB32199F30D225950E4921121B710F2F04` |
+| [Requirements](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/requirements.md) | `458FF57011731AD6FE56467513CDD6C5C89822BD92429080FA8FDF6D57080435` |
+| [Architecture](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/architecture.md) | `C652F892A888E2C8EA176672BCBD95CE8DE99946AE0170B454841FD3AC008120` |
+| [Backlog](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/backlog.md) | `9988701250EB5D46D237F6962F4EFCDCFFAC35E1C6719BD030ABCF2F3A80609F` |
+| [Build plan](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/build-plan.md) | `8A24BA703281C31548105BC3684EB9BB32199F30D225950E4921121B710F2F04` |
 
 Source manifest:
 
 | Input | SHA-256 |
 |---|---|
 | Supplied user brief, attachment `68adf716-5a71-4e4a-938d-e7e2dfdbf4e2/Pasted text.txt` | `FA2135D7C98F626F60641AE210F6B16C1C98843EEB324097AFA37BE9AE4AF3F4` |
-| [Preserved starter pack](../baseline/asdlc-codex-starter-pack.md) | `AC712356177AA4C44C05E35A1217A056956161335A15F1FCE3E5CC8859CA1317` |
-| [Repository instructions](../baseline/AGENTS.md) | `08A3D972B6FAFE2097A03842A17FBFBF348E259FEAB6CA480D41657498C14F04` |
+| [Preserved starter pack](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/asdlc-codex-starter-pack.md) | `AC712356177AA4C44C05E35A1217A056956161335A15F1FCE3E5CC8859CA1317` |
+| [Repository instructions](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/AGENTS.md) | `08A3D972B6FAFE2097A03842A17FBFBF348E259FEAB6CA480D41657498C14F04` |
 
 The supplied brief establishes the requirements and authorises local foundational implementation. Its instruction supersedes the starter pack's proposed defaults and approval-before-build sequence. No human-approved version of these new planning documents was supplied; this review does not fabricate one. The wiki remains unconfigured, so the review concerns the explicitly labelled local fixture.
 
@@ -52,4 +52,4 @@ This is review of requirements, architecture, backlog and first-increment design
 
 ## Version provenance
 
-Initial content came from the [preserved foundation source](../baseline/planning/reviews/design-review.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval. Review manifests and links below still refer to their historical target artifacts.
+Initial content came from the [preserved foundation source](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/reviews/design-review.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval. Review manifests and links below still refer to their historical target artifacts.

@@ -1,7 +1,7 @@
 ---
 project_id: asdlc
 status: draft
-source_ref: ../baseline/planning/architecture.md
+source_ref: https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/architecture.md
 source_sha256: d63c51bf9369286c666742e4f23fca66b86cd142c3c0e5901282da44380f1d44
 ---
 
@@ -54,4 +54,4 @@ Harness verified 5 October 2026: installed codex-cli 0.160.0 supports `exec`, st
 
 ## Version provenance
 
-Initial content came from the [preserved foundation source](../baseline/planning/architecture.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval.
+Initial content came from the [preserved foundation source](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/architecture.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval.

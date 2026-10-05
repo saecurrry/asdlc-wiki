@@ -1,7 +1,7 @@
 ---
 project_id: asdlc
 status: draft
-source_ref: ../baseline/planning/backlog.md
+source_ref: https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/backlog.md
 source_sha256: 9988701250eb5d46d237f6962f4efcdcffac35e1c6719bd030abcf2f3a80609f
 ---
 
@@ -29,4 +29,4 @@ Ready: reviewed inputs and explicit human gate for live projects; fixture can ex
 
 ## Version provenance
 
-Initial content came from the [preserved foundation source](../baseline/planning/backlog.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval.
+Initial content came from the [preserved foundation source](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/backlog.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval.

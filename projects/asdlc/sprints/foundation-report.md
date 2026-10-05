@@ -9,7 +9,7 @@ approved_source_sha256: c9df91d2dadc2c46f5d5b793c798196fd1da5314ace03019b2df6b16
 
 # Approved foundation report
 
-The user approved the exact [archived report](../baseline/planning/sprint-report.md) on 5 October 2026. [Approval and evidence hashes](../approvals/foundation-report-approval.md). This is a readable presentation of that report with relocated links; approval continues to bind the original bytes. Historical references to missing wiki configuration or pending report acceptance describe the report when written. Subsequent wiki work is recorded in the current [status](../project-status.md) and [living plan](../build-plan.md).
+The user approved the exact [archived report](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/sprint-report.md) on 5 October 2026. [Approval and evidence hashes](../approvals/foundation-report-approval.md). This is a readable presentation of that report with relocated links; approval continues to bind the original bytes. Historical references to missing wiki configuration or pending report acceptance describe the report when written. Subsequent wiki work is recorded in the current [status](../project-status.md) and [living plan](../build-plan.md).
 
 Scope: authorised foundational fixture implementation of increments 1 and 2. Delivered S01–S07: local project configuration, validated canonical state, lock/revision/atomic commit, generated status/RAID, questions/answers/decision records, dispatch/result provenance, independent challenge gates, two correction rounds, manual human approval and restart. Later stages remain prompt contracts and backlog outlines.
 

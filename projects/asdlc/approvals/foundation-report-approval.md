@@ -11,7 +11,7 @@ human_action_date: 2026-10-05
 
 The user explicitly instructed: “Approve the foundation report.” This records that human approval; it is not an agent granting approval on the user's behalf.
 
-Target: [preserved foundation report](../baseline/planning/sprint-report.md).
+Target: [preserved foundation report](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/sprint-report.md).
 File SHA-256: `c9df91d2dadc2c46f5d5b793c798196fd1da5314ace03019b2df6b16970bbd7a`.
 
 [Structured approval and evidence hashes](foundation-report-approval.json) bind the exact report and attached evidence. Its original draft heading describes its status when written; this later record establishes approval without rewriting the reviewed artifact.

@@ -1,7 +1,7 @@
 ---
 project_id: asdlc
 status: draft
-source_ref: ../baseline/planning/requirements.md
+source_ref: https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/requirements.md
 source_sha256: 458ff57011731ad6fe56467513cdd6c5c89822bd92429080fa8fdf6d57080435
 ---
 
@@ -34,4 +34,4 @@ Actors: human business owner, CLI orchestrator, owning stage worker, independent
 
 ## Version provenance
 
-Initial content came from the [preserved foundation source](../baseline/planning/requirements.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval.
+Initial content came from the [preserved foundation source](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/planning/requirements.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval.

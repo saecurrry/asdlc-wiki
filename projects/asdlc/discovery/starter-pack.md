@@ -1,7 +1,7 @@
 ---
 project_id: asdlc
 status: draft
-source_ref: ../baseline/asdlc-codex-starter-pack.md
+source_ref: https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/asdlc-codex-starter-pack.md
 source_sha256: ac712356177aa4c44c05e35a1217a056956161335a15f1fce3e5cc8859ca1317
 ---
 
@@ -237,4 +237,4 @@ Pin and record framework/tool versions when adopting them; prompts and command n
 
 ## Version provenance
 
-Initial content came from the [preserved foundation source](../baseline/asdlc-codex-starter-pack.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval.
+Initial content came from the [preserved foundation source](https://github.com/saecurrry/asdlc-wiki/blob/4efed330835c65dc3d967cfed068b6fa40d559b5/projects/asdlc/baseline/asdlc-codex-starter-pack.md). Historical reviews bind their recorded source versions; moving/editing this working presentation does not create a new approval.

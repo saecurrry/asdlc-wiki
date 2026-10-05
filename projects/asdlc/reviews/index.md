@@ -26,3 +26,5 @@ Draft reference: [Independent final code review](foundation-implementation-final
 - [Initial implementation findings](foundation-implementation-review.md) and [repair review](foundation-implementation-rereview.md)
 
 These readable presentations retain provenance to immutable originals and historical target hashes. They do not approve edited current requirements/design/planning documents.
+
+[Baseline folder removal checks](baseline-removal-checks.json): folder removed, Markdown links checked and all seven approval hashes verified against the recorded Git commit.

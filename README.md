@@ -24,4 +24,4 @@ Canonical discovery state is projects/<id>/state.json, created by the tool. Unti
 
 ## History, sync and privacy
 
-Preserved baseline snapshots retain exact review/evidence versions; evolving project work stays outside those snapshots. Current indexes and approval records establish later status without rewriting history. Obsidian settings are local presentation preferences, not authoritative workflow state. Git synchronisation is separate from vault use; publish only with explicit authorisation. This repository is public: exclude credentials, private personal/confidential data and sensitive operational details from publishable records.
+Commit-specific Git links retain exact historical review/evidence versions; current project work lives in stage folders. Current indexes and approval records establish later status without rewriting history. Obsidian settings are local presentation preferences, not authoritative workflow state. Git synchronisation is separate from vault use; publish only with explicit authorisation. This repository is public: exclude credentials, private personal/confidential data and sensitive operational details from publishable records.

@@ -23,6 +23,6 @@ Foundation report: [approved view](sprints/foundation-report.md), [actual human 
 
 [Standards](../../standards/index.md) · [Patterns](../../patterns/index.md) · [Knowledge](../../knowledge/index.md) · [Templates](../../templates/index.md) · [Schemas](../../schemas/index.md).
 
-## Preserved source evidence
+## Historical source versions
 
-[Foundation baseline](baseline/index.md) is immutable historical evidence, including the original report and code/test manifests. Its earlier connection/status wording is historical; current project records and later exact-version approvals apply now. Keep evolving documents outside baseline/.
+The duplicate baseline folder has been removed. Approval and review provenance points to exact historical Git versions; use the stage folders above for current documents.
