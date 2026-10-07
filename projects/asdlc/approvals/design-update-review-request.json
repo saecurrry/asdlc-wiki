@@ -1,0 +1,50 @@
+{
+  "id": "REQUEST-DESIGN-UPDATE-001",
+  "record_type": "pending_documentation_review",
+  "status": "approved",
+  "decision": "approved",
+  "human_actor": "user",
+  "targets": [
+    {
+      "path": "../requirements/requirements.md",
+      "sha256": "fc3f7766969c64d4aa37d9b7fd96aa9fb7fb60f206cb9724cd5ad6250e4cfd58"
+    },
+    {
+      "path": "../architecture/hld.md",
+      "sha256": "49aeea140c2499b33bee84abcc52d9b9d1bfb4f94c0af217a9258bb959fe6456"
+    },
+    {
+      "path": "../backlog/backlog.md",
+      "sha256": "75b7303100a250b1994b0d9f5e121c53cd5a3e335cc8388ec9c867b97955734e"
+    },
+    {
+      "path": "../discovery/pipeline-prompts.md",
+      "sha256": "ca3077b62cd57294d2a634758fa067698e558284c596c7c71f565011c73ee0a1"
+    },
+    {
+      "path": "../state/pipeline-contract.md",
+      "sha256": "baace20edd351e2c8059ebe267305f974752f38f3b42028d10160f2baa935a3f"
+    },
+    {
+      "path": "../state/pipeline-state.schema.json",
+      "sha256": "3c1233d2676203e9d3a46b8b67921d10bd4aeea17060891c54a3e3f370b2e71d"
+    },
+    {
+      "path": "../state/pipeline-state.example.json",
+      "sha256": "2a0bf162823857b7dd4315a377c323b9fd3fac12aef3cee3f36ea3f0409d6342"
+    },
+    {
+      "path": "../../../templates/examples/worked-artifacts.md",
+      "sha256": "33c3ae804a769648aa546cc6fb16f415fe873e952141ac1af6efc36542f9b47e"
+    },
+    {
+      "path": "../../../templates/project/sprints/implementation-record.md",
+      "sha256": "88a72dc82bd7d2dcf26d863d91b4e713a26b8dd81cf01edd0829810a3282e6d9"
+    }
+  ],
+  "package_sha256": "4938eaa6ba93d19cfce10cbfd0d576a37654d972a197db3e338fda7590dc0184",
+  "scope": "Review and accept the updated design direction, or identify required changes. Implementation policy defaults remain proposals. Acceptance does not authorise implementation, publication or live delivery.",
+  "independent_review": "../reviews/design-update-review.md",
+  "revision_note": "HLD expanded with stage artifact production, handoffs, full flow and defect repair/retest; pending review manifest refreshed. No acceptance recorded.",
+  "approval_ref": "design-update-approval.json"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "REQUEST-LIFECYCLE-001",
+  "status": "awaiting_human_review",
+  "decision": null,
+  "targets": [
+    {
+      "path": "../sprints/lifecycle-report.md",
+      "sha256": "f7838d898f698c328759c09ab3449b3d9779dc99b4c9888ce2f93416e0bcfdf1"
+    },
+    {
+      "path": "../sprints/evidence/lifecycle-test-run.json",
+      "sha256": "6bf6c60fb3323f478bf275e9e6a8731644de05a47b236214b33abad3ce648750"
+    },
+    {
+      "path": "../reviews/pipeline-code-review.md",
+      "sha256": "66e3302130b802815a044bd59a34f95ca43536e3be95bcc16fc7d410d564eae9"
+    }
+  ],
+  "package_sha256": "1d78b2340da1ef8a5da90a4218c915558a82445f5fe3db908ed58be9f8f7d693",
+  "scope": "Accept or request changes to the locally implemented serial orchestration increment, as bounded by the report. Actual scoped application-writing/test workers, artifact splitting, distribution and legacy migration are not delivered or accepted."
+}

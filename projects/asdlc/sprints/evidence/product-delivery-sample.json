@@ -1,0 +1,96 @@
+{
+  "sample_kind": "Synthetic upstream documents/reviews and all approvals; actual Codex delivery workers/reviewers and actual application/tests",
+  "real_codex_stages": [
+    "development",
+    "testing",
+    "sprint-review"
+  ],
+  "seven_gate_pauses": [
+    {
+      "stage": "discovery",
+      "revision": 5,
+      "artifact_hash": "ca3882c276d70f162b68b349fd3148e75d72eaefdb49cd83cf01718dbcb2c12f"
+    },
+    {
+      "stage": "business-requirements",
+      "revision": 10,
+      "artifact_hash": "59c8562dcf59a9db988f73443638a1e3743401572ee1168993136317d85dfbfe"
+    },
+    {
+      "stage": "architecture",
+      "revision": 15,
+      "artifact_hash": "eac963998b6642753a21d4f1fbe44b8334ae993a72d9b2692598d1c86b6669d9"
+    },
+    {
+      "stage": "sprint-planning",
+      "revision": 20,
+      "artifact_hash": "991b3d9acb13009cb9cf4345209823b2d37caf1b6912e3ce8abf5a42f8699c54"
+    },
+    {
+      "stage": "development",
+      "revision": 25,
+      "artifact_hash": "ec03943894c855cf23a42544877ec33a3cfa2fbe411a373662ef2f0543624aca"
+    },
+    {
+      "stage": "testing",
+      "revision": 30,
+      "artifact_hash": "79990c52d656ba0138a644b33f9387763057c602d1de7c30e1fa2516ae7f3666"
+    },
+    {
+      "stage": "sprint-review",
+      "revision": 35,
+      "artifact_hash": "a4b3d3e23b2c2e072a94814f91e481c45001dc8470f24af1ae1cf0e1cd7061ff"
+    }
+  ],
+  "code_version": {
+    "commit": "unborn",
+    "dirty_digest": "bd496da30c9844fb199c9fd8eb9121650130f94d75b96795c8f58ec198b4978a"
+  },
+  "files": {
+    "calculator.py": "c7970fd0643a0f86cc16186d76bb73c66d56d319498cff901a7bbf04d357b5c8",
+    "test_calculator.py": "09a54cc3f7d79bb486897fb8d3ba7e0bec2cdc253cff8686cc3391619f3946cb"
+  },
+  "individual_artifacts": [
+    "backlog\\stories\\s1-e0d9630be98856f3ec5cf9539a90a6e2950ed54ac71341b3d194b018b7c123c2.md",
+    "backlog\\stories\\s1.md",
+    "requirements\\epics\\e1-b152a88f889d2e6b9a6ae9968530da2d1dcadc5c88d3d8a3e02fc8b2179e0f76.md",
+    "requirements\\epics\\e1.md",
+    "requirements\\initiatives\\i1-7e4cad0638d1b041f49a9c4659ef0050fece59b7021623d76263aaacdfb17bd7.md",
+    "requirements\\initiatives\\i1.md"
+  ],
+  "final_status": "approved",
+  "live_human_acceptance": false,
+  "real_business_project": false,
+  "canonical_fixture_state_sha256": "dd64a9b6e4c9467828ca97b97c47002c5d973400d88effab42cee2d81d549193",
+  "source_fixture_evidence_sha256": "bdff92978072b9aad3aad571775f53e57e4e6da9c40ef7bedab888927e34e12f",
+  "delivery_stage_reviews": [
+    {
+      "stage": "development",
+      "artifact_hash": "ec03943894c855cf23a42544877ec33a3cfa2fbe411a373662ef2f0543624aca",
+      "verdict": "pass",
+      "review_actor": "stage-challenger",
+      "repair_rounds": 0
+    },
+    {
+      "stage": "testing",
+      "artifact_hash": "79990c52d656ba0138a644b33f9387763057c602d1de7c30e1fa2516ae7f3666",
+      "verdict": "pass",
+      "review_actor": "stage-challenger",
+      "repair_rounds": 0
+    },
+    {
+      "stage": "sprint-review",
+      "artifact_hash": "a4b3d3e23b2c2e072a94814f91e481c45001dc8470f24af1ae1cf0e1cd7061ff",
+      "verdict": "pass",
+      "review_actor": "stage-challenger",
+      "repair_rounds": 0
+    }
+  ],
+  "earlier_exhausted_run": {
+    "run": "12f744b0e4044a30853af57afc4d18db",
+    "stage": "testing",
+    "status": "blocked",
+    "preserved": true,
+    "reason": "Execution-copy provenance and explicit policy context missing; cap2 reached. Repaired implementation was validated in a fresh fixture, without resetting exhausted state."
+  }
+}

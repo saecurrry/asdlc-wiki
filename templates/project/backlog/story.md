@@ -47,3 +47,12 @@ Planned checks, integrated test coverage, exact code commit plus dirty-tree dige
 ## Ready/done and review
 
 Ready requires approved inputs and unblocked dependencies. Done requires acceptance evidence, independent code challenge and inclusion in integrated sprint validation. Story completion does not grant sprint human acceptance.
+
+## Shared resource and integration assessment
+
+| File / interface / data resource | Story owner | Other consumers | Compatibility / conflict risk | Isolation method | Integration owner / checks |
+|---|---|---|---|---|---|
+
+Parallel eligibility is a reasoned proposal, not dispatch authority. Record approved contracts/ADRs/standards/pattern IDs and versions.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

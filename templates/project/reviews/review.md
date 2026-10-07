@@ -32,4 +32,6 @@ pass / changes_required / needs_human_decision / blocked. Leave unset until revi
 
 ## Repair and re-review
 
-Record previous finding IDs, corrections and a new exact-version review. Two automatic repair rounds then escalation; exhaustion is never a pass. Findings are returned to the orchestrator; reviewer never writes authoritative state or approves itself.
+Record previous finding IDs, corrections and a new exact-version review. Follow the versioned retry/escalation policy. The foundation uses two as a proposed implementation default; exhaustion is never a pass. Findings are returned to the orchestrator; reviewer never writes authoritative state or approves itself.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

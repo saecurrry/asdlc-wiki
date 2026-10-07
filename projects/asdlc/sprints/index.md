@@ -7,3 +7,9 @@
 No later sprint scope is approved. Use current [planning and report templates](../../../templates/project/sprints/index.md) when preparing another increment.
 
 [Project home](../index.md)
+
+[Serial lifecycle increment report](lifecycle-report.md) | [Fixture/regression evidence](evidence/lifecycle-test-run.json).
+
+[Installed operator increment report](distribution-report.md) — [approved](../approvals/distribution-approval.md), 6 October 2026.
+
+Serial lifecycle increment: [exact human acceptance](../approvals/lifecycle-approval.md), 6 October 2026.

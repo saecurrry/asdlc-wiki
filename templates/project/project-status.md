@@ -35,3 +35,5 @@ Editable pre-init draft; no executed state or approvals. Archive this draft befo
 | Canonical revision / dispatch / repairs | No state created |
 
 [Project home](index.md) · [RAID](raid.md) · [State contract](state/index.md)
+
+Worked examples: [synthetic artifact set](../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

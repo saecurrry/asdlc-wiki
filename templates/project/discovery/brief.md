@@ -43,3 +43,5 @@ Record hypothesis, consequence if false, validation owner and next action. Do no
 ## Exit and challenger criteria
 
 Review outcomes, metric definitions/ownership, actors, scope, source fidelity and unknowns. Material unknowns pause for input. Independent pass permits a human gate; neither author nor reviewer grants acceptance. Link exact reviewed artifact/input versions and the next permitted action.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

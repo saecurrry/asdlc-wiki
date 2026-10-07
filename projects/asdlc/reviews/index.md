@@ -28,3 +28,11 @@ Draft reference: [Independent final code review](foundation-implementation-final
 These readable presentations retain provenance to immutable originals and historical target hashes. They do not approve edited current requirements/design/planning documents.
 
 [Baseline folder removal checks](baseline-removal-checks.json): folder removed, Markdown links checked and all seven approval hashes verified against the recorded Git commit.
+
+Independent updated-design challenge passed after two material documentation/provenance corrections. No human acceptance or full-pipeline execution is claimed. Wiki report: projects/asdlc/reviews/design-update-review.md.
+
+[Updated-design review](design-update-review.md) · [Executed structural and regression checks](design-update-checks.json).
+
+HLD now explicitly maps stage inputs/outputs/owners/paths/consumers and full delivery/gate/defect feedback flow. Independent artifact-flow challenge passed after correcting application-defect repair/review/retest path. Human review manifest refreshed; acceptance remains pending.
+
+[HLD artifact/flow review](artifact-flow-review.md) | [Checks](artifact-flow-checks.json).

@@ -33,3 +33,5 @@ Record actual changes/checks, defects, blockers, remedies and links to decisions
 How to resume authoritative state, reconcile source changes and reject stale evidence. Preserve histories and input-version bindings. Stop for missing input or human gates; retry exhaustion is never completion.
 
 [Project home](index.md) · [Status](project-status.md) · [RAID](raid.md)
+
+Worked examples: [synthetic artifact set](../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

@@ -11,7 +11,7 @@ Reusable local agentic SDLC with durable intent, independent challenge and expli
 ## Resume and current work
 
 [Living plan](build-plan.md) · [Current status](project-status.md) · [RAID](raid.md).
-Foundation report: [approved view](sprints/foundation-report.md), [actual human approval](approvals/foundation-report-approval.md). Other draft intent/design/planning gates remain pending. No live runtime is initialised.
+Foundation report: [approved view](sprints/foundation-report.md), [actual human approval](approvals/foundation-report-approval.md). The existing design package is approved; new implementation increments retain their separate review/acceptance records. No live runtime is initialised.
 
 ## Stage documents and registers
 
@@ -26,3 +26,7 @@ Foundation report: [approved view](sprints/foundation-report.md), [actual human 
 ## Historical source versions
 
 The duplicate baseline folder has been removed. Approval and review provenance points to exact historical Git versions; use the stage folders above for current documents.
+
+## Updated design package
+
+[Latest user context](discovery/design-update-2026-10-05.txt) · [change impact](reviews/design-update-impact.md) · [operating procedure and prompts](discovery/pipeline-prompts.md) · [worked examples](../../templates/examples/worked-artifacts.md) · [proposed pipeline state](state/pipeline-contract.md).

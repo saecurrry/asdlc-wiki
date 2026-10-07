@@ -1,0 +1,57 @@
+test_individual_artifacts_render_and_tamper_is_rejected (test_artifacts.ArtifactTests) ... ok
+test_missing_parent_and_wrong_stage_refuse_inventory (test_artifacts.ArtifactTests) ... ok
+test_upstream_identity_cannot_be_reused_by_story (test_artifacts.ArtifactTests) ... ok
+test_delivery_question_pauses_without_checks_or_writes (test_delivery.DeliveryTests) ... ok
+test_failed_canonical_save_rolls_back_code (test_delivery.DeliveryTests) ... ok
+test_failed_testing_returns_to_development_with_budget (test_delivery.DeliveryTests) ... ok
+test_out_of_scope_stale_and_failed_tests_preserve_application (test_delivery.DeliveryTests) ... ok
+test_partial_apply_failure_restores_prior_completed_write (test_delivery.DeliveryTests) ... ok
+test_rejected_result_is_retained_and_visible_on_resume (test_delivery.DeliveryTests) ... ok
+test_scoped_delivery_applies_and_records_executed_checks (test_delivery.DeliveryTests) ... ok
+test_test_source_mutation_cannot_validate_different_delivered_bytes (test_delivery.DeliveryTests) ... ok
+test_testing_runs_checks_without_changing_application (test_delivery.DeliveryTests) ... ok
+test_transient_windows_replace_is_bounded_and_atomic (test_delivery.DeliveryTests) ... ok
+test_windows_aliases_cannot_address_protected_paths (test_delivery.DeliveryTests) ... ok
+test_packaged_prompts_match_operator_sources (test_distribution.DistributionTests) ... ok
+test_changed_source_invalidates_handoffs_and_preserves_history (test_pipeline.PipelineTests) ... ok
+test_delivery_result_without_actual_code_version_is_rejected (test_pipeline.PipelineTests) ... ok
+test_dirty_code_blocks_stale_test_approval_and_reopens_development (test_pipeline.PipelineTests) ... ok
+test_failure_keeps_dispatch_and_configurable_repairs_hold (test_pipeline.PipelineTests) ... ok
+test_forged_handoff_and_stage_skip_are_rejected (test_pipeline.PipelineTests) ... ok
+test_human_rejection_returns_to_owner_without_handoff (test_pipeline.PipelineTests) ... ok
+test_init_refuses_existing_human_documents (test_pipeline.PipelineTests) ... ok
+test_later_question_id_does_not_reopen_or_close_prior_stage_raid (test_pipeline.PipelineTests) ... ok
+test_materialized_version_tamper_stops_resume (test_pipeline.PipelineTests) ... ok
+test_next_sprint_preserves_business_inputs_but_requires_new_scope_approval (test_pipeline.PipelineTests) ... ok
+test_optional_questions_cannot_erase_human_rejection_repair_budget (test_pipeline.PipelineTests) ... ok
+test_resource_change_resets_pipeline_and_retains_accepted_history (test_pipeline.PipelineTests) ... ok
+test_retry_policy_edit_invalidates_bound_digest (test_pipeline.PipelineTests) ... ok
+test_seven_stage_handoffs_pause_at_each_gate_and_resume (test_pipeline.PipelineTests) ... ok
+test_stage_prompt_and_approved_package_are_dispatched (test_pipeline.PipelineTests) ... ok
+test_zero_repair_policy_holds_after_first_material_finding (test_pipeline.PipelineTests) ... ok
+test_atomic_failure_preserves_state (test_workflow.WorkflowTests) ... ok
+test_blocking_findings_maintain_raid_until_pass (test_workflow.WorkflowTests) ... ok
+test_changed_answer_invalidates_review_and_old_result (test_workflow.WorkflowTests) ... ok
+test_changed_artifact_cannot_retain_review_hash (test_workflow.WorkflowTests) ... ok
+test_correction_adapter_receives_historical_findings (test_workflow.WorkflowTests) ... ok
+test_corrupt_state_refused_and_views_recovered (test_workflow.WorkflowTests) ... ok
+test_direct_question_cannot_invent_answer (test_workflow.WorkflowTests) ... ok
+test_end_to_end_fixture_new_process (test_workflow.WorkflowTests) ... ok
+test_missing_human_decision_resume (test_workflow.WorkflowTests) ... ok
+test_nonfixture_requires_separate_repository (test_workflow.WorkflowTests) ... ok
+test_pass_cannot_hide_blocking_finding (test_workflow.WorkflowTests) ... ok
+test_process_lock_and_project_isolation (test_workflow.WorkflowTests) ... ok
+test_questions_cannot_reset_correction_budget (test_workflow.WorkflowTests) ... ok
+test_records_and_raid_views (test_workflow.WorkflowTests) ... ok
+test_render_failure_recovers_committed_state (test_workflow.WorkflowTests) ... ok
+test_schema_revision_and_identity (test_workflow.WorkflowTests) ... ok
+test_status_surfaces_current_human_request_and_exact_approval_target (test_workflow.WorkflowTests) ... ok
+test_two_repairs_then_block_no_pass (test_workflow.WorkflowTests) ... ok
+test_wiki_resource_change_invalidates_approval_on_resume (test_workflow.WorkflowTests) ... ok
+test_worker_cannot_invent_answer (test_workflow.WorkflowTests) ... ok
+test_worker_raid_proposals_update_stable_record (test_workflow.WorkflowTests) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 74.626s
+
+OK

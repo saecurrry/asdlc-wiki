@@ -30,3 +30,5 @@ Applicability, counterexamples, prerequisites, alternatives and validation neede
 ## Promotion proposal
 
 Proposed destination: knowledge / pattern / standard, or project-only. Link evidence and independent review; owner approval required for mandatory standards. Do not automatically promote every local workaround.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

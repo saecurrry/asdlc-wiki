@@ -33,3 +33,5 @@ Outcome → requirement → epic → story → test → exact code change. Recor
 Every stage needs independent challenge and human acceptance where required. Current runtime executes serial discovery only. Later-stage templates are planning contracts. Copying this folder starts no workflow and grants no approval.
 
 [Current living build plan](build-plan.md) records next permitted actions and evidence.
+
+Worked examples: [synthetic artifact set](../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

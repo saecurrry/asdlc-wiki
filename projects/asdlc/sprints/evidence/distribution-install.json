@@ -1,0 +1,11 @@
+{
+  "wheel": "asdlc-0.1.0-py3-none-any.whl",
+  "sha256": "3b6a8090f12696d7fdaa224d103e89a477923c177b43c05e7b0221375b02a1ec",
+  "installed_outside_framework": true,
+  "bundled_prompts": 9,
+  "schema_v2_init": true,
+  "synthetic_adapter_probe": true,
+  "real_codex_execution": false,
+  "application_delivery": false,
+  "live_project_activation": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "REQUEST-DELIVERY-001",
+  "status": "awaiting_human_review",
+  "decision": null,
+  "date": "2026-10-07",
+  "targets": [
+    {
+      "path": "../sprints/delivery-report.md",
+      "sha256": "c56a36661622971270cc82ed3bcd1e10c5fb00e177f819c0cc96495a3d4f9949"
+    },
+    {
+      "path": "../sprints/evidence/delivery-test-run.json",
+      "sha256": "44bcd4326df2f840ad9b8aedefaa674394d72a7433690b890a92ac314788e6b4"
+    },
+    {
+      "path": "../reviews/delivery-review.md",
+      "sha256": "67327433af2dcecaabff9b0622405c8c64c4f2c4aaa8374a960af3369c75b918"
+    },
+    {
+      "path": "../reviews/delivery-report-review.md",
+      "sha256": "32f216dbcc92050a34b0b8de83e1766085a998c3bc7423b0ff55bec10b3c6507"
+    }
+  ],
+  "package_sha256": "b9b0f29bd4943cc62bcdb7b62fec653239bae311bc86aae0af91a809f0c1473a",
+  "scope": "Accept or request changes to the scoped UTF-8 delivery increment, within report limits. Fixture approvals are synthetic; no live business acceptance or publication implied."
+}

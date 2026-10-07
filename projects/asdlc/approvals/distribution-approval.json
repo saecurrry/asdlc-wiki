@@ -1,0 +1,36 @@
+{
+  "id": "APPROVAL-DISTRIBUTION-001",
+  "record_type": "documentation_approval",
+  "decision": "approved",
+  "human_actor": "user",
+  "human_action_date": "2026-10-06",
+  "recorded_at": "2026-10-06T22:08:19+00:00",
+  "authorization": {
+    "source": "direct user message in this Codex chat",
+    "text": "approve increment report"
+  },
+  "presented_report": "../sprints/distribution-report.md",
+  "presented_report_sha256": "ac81eb76a25b8a783544b2f11bc809efda387edcfcc7d908b35f544c3e51f3cf",
+  "targets": [
+    {
+      "path": "../sprints/distribution-report-ac81eb76a25b8a783544b2f11bc809efda387edcfcc7d908b35f544c3e51f3cf.md",
+      "sha256": "ac81eb76a25b8a783544b2f11bc809efda387edcfcc7d908b35f544c3e51f3cf"
+    },
+    {
+      "path": "../sprints/evidence/distribution-install.json",
+      "sha256": "ce5467dfc15ad718407447045411ffc3cba14595ed262b9b9f52d25194c2dda7"
+    },
+    {
+      "path": "../sprints/evidence/distribution-source-manifest.json",
+      "sha256": "bd9361a9738112f53fc05174ca75e9843151a5abd9bdde8554313175c12493c6"
+    },
+    {
+      "path": "../reviews/distribution-review.md",
+      "sha256": "bab648c0dc0cb456e233b64e65c86b22ca5fa4e2c3678466eec6d95b991353d4"
+    }
+  ],
+  "package_sha256": "9e9d9df402965e56212efca1b201a5b1323e04ea37d8a5c7f2165a160e735683",
+  "scope": "Acceptance of the latest installed-operator-assets increment report and its delivered capabilities and recorded limits. The serial lifecycle-control increment has its own separate pending request. Scoped coding/testing, full product delivery, publication and live activation are not accepted by this report approval.",
+  "runtime_binding": "Documentary acceptance; no live state is initialised and no stage transition is fabricated.",
+  "invalidation": "Acceptance binds exact retained bytes. Current report header is an accepted presentation linked to this record; changed technical scope requires review and acceptance."
+}

@@ -33,3 +33,5 @@ Identify affected inputs/code and approval revocation/review conditions. A chang
 ## Canonical recording
 
 Current runtime approval uses id, actor, artifact_hash, input_hash, date and valid; the orchestrator records it only after a passing independent discovery review. Later code/sprint approval gates are planned. This Markdown template is explanatory evidence, not a fake canonical record.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

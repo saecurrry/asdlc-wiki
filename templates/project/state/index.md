@@ -14,3 +14,5 @@ The sole canonical runtime record is `../state.json` at the project root. It is 
 `project-status.md` and `raid.md` become generated views once init is explicitly authorised. Before init, their marked draft templates may be edited. Archive human draft versions before activation; the runtime generates those two files. Init does not create business approvals. Resume regenerates views and invalidates changed shared inputs.
 
 Do not hand-edit state.json or create plausible-looking approvals. Markdown decisions/reviews are evidence artifacts, not canonical mutations. Apply records using ASDLC commands only. [Project home](../index.md).
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

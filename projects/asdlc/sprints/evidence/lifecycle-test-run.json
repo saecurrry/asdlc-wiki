@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-06",
+  "execution": "local fixture/regression checks",
+  "tests": {
+    "full_suite": {
+      "count": 37,
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -v",
+      "outcome": "pass"
+    },
+    "final_wire_schema_check": {
+      "count": 1,
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_pipeline.py -k stage_prompt -v",
+      "outcome": "pass"
+    }
+  },
+  "real_full_pipeline_codex_execution": false,
+  "application_delivery_demonstrated": false,
+  "live_wiki_initialised": false,
+  "manifest": {
+    "asdlc/adapters.py": "e618a9013561a53c79bfd097ad8a5eceb945df606e43087b8c39558d1154106e",
+    "asdlc/cli.py": "a63d6aa33ba5fd141304b87b09712710aacb22d0fe48b771b387439849ce89b6",
+    "asdlc/code_version.py": "a17ef1a21f32247f12b12e9fade2c333cd318c8e27bde98e1521bfe8f8c76734",
+    "asdlc/engine.py": "4cb405a54fb68e425a84f45677816559bfab690c002720033df9b689143703c7",
+    "asdlc/pipeline.py": "b40c75a2688fdb82a8b7382ae1adf9b6efc52ec41217b4030bc61f328603e5df",
+    "asdlc/store.py": "8717acee0f7ab56e7d875e51d8f3bb14ea7fb0f360d7f0637a793b3349eb4fd3",
+    "asdlc/__init__.py": "0ad0a9cdcefe9c7b3f786bdbaa5f56ed1e80724cf8fb4be5bc686984307831c2",
+    "asdlc/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "asdlc/schemas/pipeline-state.json": "b80eeebee3d43f27ee5c53c036ef1260d5bc802c1add5f1ab377caf5a55b34b9",
+    "asdlc/schemas/project-state.json": "726e2a74077f4ab6710ae9dced765328e49961cef3d03b6d21345c7903ebe1f0",
+    "asdlc/schemas/stage-result.json": "1ddadb582e1822939f6e8231356a63dd6fcafded3a6750311a74eea6f54133f9",
+    "tests/test_pipeline.py": "c453e8a48d6c911285fdbf78ed7e705c7c416f1fe2b163bce62df71c1388689e",
+    "tests/test_workflow.py": "1bc390a1d4376207f3d44faf740d82e15460b1db66e3555aa017e97dfe8f96aa",
+    "tools/generate_pipeline_schema.py": "fb6d34e9f9a8859a16fa2f9c99d0f9b511a429efb83d3fce93e294dda59a164d"
+  }
+}

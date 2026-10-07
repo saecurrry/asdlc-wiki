@@ -45,3 +45,15 @@ Outcome → requirement → epic → story → test → exact code change. Link 
 ## Exit and challenger criteria
 
 Check measurable intent, rule consistency, scope boundaries, initiative/epic coverage, contradictions and unanswered business choices. Review against approved discovery; human approval is separate.
+
+## Process, exceptions and dependencies
+
+| Process ID | Actor / trigger | Current steps and shortcoming | Proposed steps | Rules / exceptions | Requirement IDs | Source |
+|---|---|---|---|---|---|---|
+
+| Dependency ID | External system / owner | Required contract or decision | Needed by stage | Consequence if unavailable | Source |
+|---|---|---|---|---|---|
+
+Acceptance expectations include business approver, permitted conditions and evidence. Link separate [initiative](initiative.md) and [epic](epic.md) records; their hierarchy complements substantive requirements.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

@@ -20,7 +20,7 @@ Standards require actual human owner approval; reusable patterns/knowledge requi
 
 Follow [template instructions](templates/index.md), use a lowercase hyphenated project ID, preserve existing work and add the project to the index. Read only the current project and relevant shared entries. Supplied ASDLC requirements are established; do not restart discovery.
 
-Canonical discovery state is projects/<id>/state.json, created by the tool. Until authorised init, status/RAID are labelled editable draft views; archive them before replacement. Later delivery-stage templates do not enable later runtime capabilities. Template copying creates no execution state or approvals.
+Canonical state is projects/<id>/state.json, created by the tool. Schema v2 controls seven serial stages and approval handoffs; v1 retains legacy discovery. Built-in Codex workers remain read-only; scoped proposals are applied and tested by the orchestrator. Full product readiness depends on the separately tracked delivery validation and acceptance. Until authorised init, status/RAID are labelled editable draft views; archive them before replacement. Template copying creates no execution state or approvals.
 
 ## History, sync and privacy
 

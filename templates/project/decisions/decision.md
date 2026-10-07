@@ -37,3 +37,5 @@ Requirements/design/stories/tests/approvals requiring change or renewed review. 
 ## Runtime record
 
 Apply the actual decision through the orchestrator using id, text, rationale, alternatives, affected, actor and date per the decision schema. Markdown alone does not mutate canonical state.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

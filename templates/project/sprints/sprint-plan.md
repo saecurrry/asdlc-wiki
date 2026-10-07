@@ -31,3 +31,5 @@ Do not invent delivery estimates; record proposed sizing and its evidence.
 ## Change and approval gate
 
 Review coverage, dependency order and feasibility. Record exact plan hash/source versions and human scope approval before live delivery. Scope changes need impact assessment and renewed approval. Parallel execution remains a later capability.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

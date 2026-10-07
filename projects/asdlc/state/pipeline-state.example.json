@@ -1,0 +1,294 @@
+{
+  "schema_version": "pipeline-design-1",
+  "project_id": "synthetic-ticket-routing",
+  "revision": 0,
+  "illustrative_only": true,
+  "artifacts": [
+    {
+      "id": "DISC-EX1",
+      "version": 1,
+      "path": "../../../templates/examples/worked-artifacts.md",
+      "sha256": "93d6945c6083c65f04fb74084b6a4f44d8df18f1f7caea25d9af25be25a7a6f3",
+      "hash_kind": "file_bytes",
+      "input_refs": []
+    }
+  ],
+  "stages": [
+    {
+      "id": "discovery",
+      "status": "awaiting_input",
+      "input_refs": [],
+      "output_refs": [
+        "DISC-EX1"
+      ],
+      "policy_ref": "POLICY-P1",
+      "repair_count": 0
+    },
+    {
+      "id": "business-requirements",
+      "status": "not_started",
+      "input_refs": [],
+      "output_refs": [],
+      "policy_ref": "POLICY-P1",
+      "repair_count": 0
+    },
+    {
+      "id": "architecture",
+      "status": "not_started",
+      "input_refs": [],
+      "output_refs": [],
+      "policy_ref": "POLICY-P1",
+      "repair_count": 0
+    },
+    {
+      "id": "sprint-planning",
+      "status": "not_started",
+      "input_refs": [],
+      "output_refs": [],
+      "policy_ref": "POLICY-P1",
+      "repair_count": 0
+    },
+    {
+      "id": "development",
+      "status": "not_started",
+      "input_refs": [],
+      "output_refs": [],
+      "policy_ref": "POLICY-P1",
+      "repair_count": 0
+    },
+    {
+      "id": "testing",
+      "status": "not_started",
+      "input_refs": [],
+      "output_refs": [],
+      "policy_ref": "POLICY-P1",
+      "repair_count": 0
+    },
+    {
+      "id": "sprint-review",
+      "status": "not_started",
+      "input_refs": [],
+      "output_refs": [],
+      "policy_ref": "POLICY-P1",
+      "repair_count": 0
+    }
+  ],
+  "runs": [
+    {
+      "id": "RUN1",
+      "stage_id": "discovery",
+      "actor": "example-author",
+      "role": "worker",
+      "revision": 0,
+      "input_digest": "54dfdb0663dd959e6fc3f8f9bd61ded7e0a0d0d63b7fb99be5a23c6b2592f32d",
+      "status": "completed",
+      "scope": [
+        "discovery"
+      ],
+      "output_refs": [
+        "DISC-EX1"
+      ],
+      "input_refs": [],
+      "criteria_ref": "discovery-design-v1",
+      "policy_ref": "POLICY-P1",
+      "target_ref": null
+    },
+    {
+      "id": "RUN2",
+      "stage_id": "discovery",
+      "actor": "example-reviewer",
+      "role": "challenger",
+      "revision": 0,
+      "input_digest": "be66f6c4e8e29454e3400a08608bb4b3e27057eaa7c1592a84461bed12a61515",
+      "status": "completed",
+      "scope": [
+        "discovery"
+      ],
+      "output_refs": [],
+      "input_refs": [
+        "DISC-EX1"
+      ],
+      "criteria_ref": "discovery-design-v1",
+      "policy_ref": "POLICY-P1",
+      "target_ref": "DISC-EX1"
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "stage_id": "discovery",
+      "text": "Who owns assignment quality measurement?",
+      "owner": "business-owner",
+      "required_stage": "business-requirements",
+      "status": "open",
+      "answer": null,
+      "answer_source": null,
+      "deferral_reason": null
+    }
+  ],
+  "decisions": [
+    {
+      "id": "ADR1",
+      "stage_id": "architecture",
+      "owner": "architect",
+      "status": "proposed",
+      "options": [
+        "idempotency key",
+        "query before retry"
+      ],
+      "choice": null,
+      "rationale": "Prevent duplicate side effects after timeout.",
+      "source": null
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "review_id": "REV1",
+      "target_ref": "DISC-EX1",
+      "severity": "major",
+      "blocking": true,
+      "location": "discovery measurement owner Q1",
+      "evidence": "Measurement owner remains unknown.",
+      "impact": "Unowned outcome measure cannot be accepted.",
+      "criterion": "Outcome ownership",
+      "owning_stage": "discovery",
+      "resolution": "Ask the example business owner Q1.",
+      "status": "open"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "REV1",
+      "run_id": "RUN2",
+      "author_actor": "example-author",
+      "reviewer_actor": "example-reviewer",
+      "target_ref": "DISC-EX1",
+      "input_refs": [],
+      "criteria_ref": "discovery-design-v1",
+      "verdict": "needs_human_decision",
+      "finding_ids": [
+        "F1"
+      ]
+    }
+  ],
+  "approvals": [
+    {
+      "id": "AP1",
+      "target_refs": [
+        "DISC-EX1"
+      ],
+      "policy_ref": "POLICY-P1",
+      "actor": null,
+      "source": null,
+      "decision": "pending",
+      "condition_ids": [],
+      "status": "current"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "C1",
+      "owner": "api-owner",
+      "scope": "No coding until DEP1 is resolved; illustrative possible future condition, not granted authority.",
+      "due": "before-development",
+      "status": "open",
+      "evidence_refs": []
+    }
+  ],
+  "raid": [
+    {
+      "id": "DEP1",
+      "kind": "dependency",
+      "status": "open",
+      "owner": "api-owner",
+      "source_refs": [
+        "ADR1"
+      ],
+      "impact": "Assignment timeout contract unknown.",
+      "action": "Confirm API retry contract.",
+      "due_stage": "architecture"
+    }
+  ],
+  "stories": [
+    {
+      "id": "ST1",
+      "initiative_id": "I-T01",
+      "epic_id": "E-T01",
+      "requirement_ids": [
+        "R-T01"
+      ],
+      "artifact_ref": "DISC-EX1",
+      "dependencies": [
+        "DEP1"
+      ],
+      "status": "draft",
+      "resources": [
+        "assignment-client"
+      ],
+      "eligibility": "serial",
+      "integration_owner": "example-integration-owner"
+    }
+  ],
+  "sprints": [
+    {
+      "id": "SP1",
+      "goal": "Illustrative safe confirmation slice",
+      "story_ids": [
+        "ST1"
+      ],
+      "status": "planned",
+      "code_refs": [],
+      "evidence_refs": [
+        "TE1"
+      ],
+      "report_ref": null
+    }
+  ],
+  "code_versions": [
+    {
+      "id": "CODE-EX1",
+      "repository": "synthetic-ticket-repository-not-real",
+      "commit": "0000000000000000000000000000000000000000",
+      "dirty_tree_digest": null
+    }
+  ],
+  "evidence": [
+    {
+      "id": "TE1",
+      "code_ref": "CODE-EX1",
+      "artifact_refs": [
+        "DISC-EX1"
+      ],
+      "command": "illustrative command; never executed",
+      "execution": "planned",
+      "result": "not_run",
+      "output_ref": null
+    }
+  ],
+  "next_actions": [
+    {
+      "id": "NEXT1",
+      "stage_id": "discovery",
+      "actor": "business-owner",
+      "kind": "question",
+      "reason": "Missing measurement owner.",
+      "blocking_refs": [
+        "Q1"
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "id": "POLICY-P1",
+      "repair_limit": 2,
+      "escalation_owner": "business-owner",
+      "human_gate_stages": [
+        "business-requirements",
+        "sprint-review"
+      ],
+      "status": "proposed",
+      "source": null
+    }
+  ]
+}

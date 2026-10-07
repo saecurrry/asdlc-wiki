@@ -28,3 +28,9 @@ Follow [runtime contract](project/state/index.md) and [schemas](../schemas/index
 ## Shared knowledge
 
 Use [knowledge entry](knowledge-entry.md). Choose kind standard/pattern/knowledge, separate applicability and limits, cite evidence and versions. A standard becomes mandatory only after recorded human owner approval. A pattern or lesson becomes reviewed only after independent challenge. Preserve superseded entries with replacement links.
+
+## Complete example set and hierarchy
+
+[Worked examples](examples/worked-artifacts.md) cover every artifact, including implementation records, unavailable test evidence and pending approval. Use [initiative](project/requirements/initiative.md) and [epic](project/requirements/epic.md) contracts alongside BRD.
+
+[Proposed full-pipeline state](../projects/asdlc/state/pipeline-contract.md) is a design, not today's executable schema.

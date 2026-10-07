@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-06",
+  "scope": "Exact UTF-8 file proposals, copied-source executed tests, individual artifacts and separate sample workflow",
+  "manifest": {
+    "asdlc/adapters.py": "a1d526f8fff8b9633358393b79a5ed45cd42fd736dce51c449c98de11c9659ca",
+    "asdlc/artifacts.py": "aa875db8fd67f590a90b3cd54913c55d98e226bcae58227e5bd6317e71301aa7",
+    "asdlc/cli.py": "60fe1237951138de99b398c6d28cc6347d4c0d6d04831d7ba088c74e9d1d7133",
+    "asdlc/code_version.py": "a17ef1a21f32247f12b12e9fade2c333cd318c8e27bde98e1521bfe8f8c76734",
+    "asdlc/delivery.py": "9f5a05e363c5229961235892d91b6938bd9d2a10251ecb64caf28d236e986a0d",
+    "asdlc/engine.py": "8fb95d8db7f99c43f085b915c38775f368844dc19ee346102380a7e3f968e716",
+    "asdlc/pipeline.py": "b40c75a2688fdb82a8b7382ae1adf9b6efc52ec41217b4030bc61f328603e5df",
+    "asdlc/prompts/architecture.md": "14878481ace41b4ed6c5ef417239592af270253bd7ae6ffd3fb9bf4dee3fab5e",
+    "asdlc/prompts/business-requirements.md": "c7969fc9f245a56acb550263ded1cd376123a4503cae0a07a62b7f55455bf7df",
+    "asdlc/prompts/challenger.md": "80a0b0de8abcc1efc692440221316cd4402e545f0789413611692ee9f3696aad",
+    "asdlc/prompts/development.md": "452fece6d156c800f584945489b38d05301559ecd46c9115eff6c87cebb6a832",
+    "asdlc/prompts/discovery.md": "23968a8e2efcfcb0a5db5271ff4f9f3f26bb9e0e07cf96594f829da27e2d6bad",
+    "asdlc/prompts/orchestrator.md": "76b88d661651ffa6d837fd49bf5cad02aa3ee98e9f7abf0923ec3aef8868f8ca",
+    "asdlc/prompts/sprint-planning.md": "af933fb2ae216b73ea91cb6ad673a3042ce80dcb2bf8035939ea511b83611483",
+    "asdlc/prompts/sprint-review.md": "0e1f5e6baa3e6f17f76f2463a973a362072511a83267a646320551ed607a6972",
+    "asdlc/prompts/testing.md": "9ad46f8ee42f54ab9189bb3c2cc66540b6eb4df0dad47e54e0f914d1149d481a",
+    "asdlc/schemas/approvals.json": "0189178663c1112eef78f471aee9201befecb7ca5b869f1c1d0c98ef97200a99",
+    "asdlc/schemas/decisions.json": "a8cc4c19b4d8258c117eeb1f7f40b6cf1dfa0aa8559d440a40de094c14ea5790",
+    "asdlc/schemas/pipeline-state.json": "884ae3d37706d5adddb02e37fcbf6b7ebf9410ed640adc66dfbf9d6cde947562",
+    "asdlc/schemas/project-state.json": "15d20c53c5b397186a40ff66f1f71059953c465b21599f0794c449347c6d4edb",
+    "asdlc/schemas/questions.json": "81fc57f18dbb511a9ea670082055a12b4720419bef0827388a2e5c6ceedb9e2b",
+    "asdlc/schemas/raid.json": "2c32add575283dfc6d3bf0a296c18bacca2c8282bae6b01d8834558673ea8811",
+    "asdlc/schemas/review-findings.json": "72db003171d5bf34d36ff60530067fd04615e69a55cad6acb87b22d2d1e3d8be",
+    "asdlc/schemas/stage-result.json": "ca88c11275f586e22c967c283b1a7c1cd845b31413e2e0dadabc3080d4e5c95a",
+    "asdlc/store.py": "32120284e9b96dc663166fb9e0aa4b461ec63c3ce6e0ba557ecc8eae68b92619",
+    "examples/product_delivery.py": "cccd5560d71def808cc79b7b79df4d7411a7af4e7f35f96ef88ee23beca6ac7b",
+    "prompts/architecture.md": "14878481ace41b4ed6c5ef417239592af270253bd7ae6ffd3fb9bf4dee3fab5e",
+    "prompts/business-requirements.md": "c7969fc9f245a56acb550263ded1cd376123a4503cae0a07a62b7f55455bf7df",
+    "prompts/challenger.md": "80a0b0de8abcc1efc692440221316cd4402e545f0789413611692ee9f3696aad",
+    "prompts/development.md": "452fece6d156c800f584945489b38d05301559ecd46c9115eff6c87cebb6a832",
+    "prompts/discovery.md": "23968a8e2efcfcb0a5db5271ff4f9f3f26bb9e0e07cf96594f829da27e2d6bad",
+    "prompts/orchestrator.md": "76b88d661651ffa6d837fd49bf5cad02aa3ee98e9f7abf0923ec3aef8868f8ca",
+    "prompts/sprint-planning.md": "af933fb2ae216b73ea91cb6ad673a3042ce80dcb2bf8035939ea511b83611483",
+    "prompts/sprint-review.md": "0e1f5e6baa3e6f17f76f2463a973a362072511a83267a646320551ed607a6972",
+    "prompts/testing.md": "9ad46f8ee42f54ab9189bb3c2cc66540b6eb4df0dad47e54e0f914d1149d481a",
+    "pyproject.toml": "20648b711a09c6bdf3b9166608a4897d7329186971a6aa9c44283978858575c3",
+    "schemas/approvals.json": "0189178663c1112eef78f471aee9201befecb7ca5b869f1c1d0c98ef97200a99",
+    "schemas/decisions.json": "a8cc4c19b4d8258c117eeb1f7f40b6cf1dfa0aa8559d440a40de094c14ea5790",
+    "schemas/pipeline-state.json": "884ae3d37706d5adddb02e37fcbf6b7ebf9410ed640adc66dfbf9d6cde947562",
+    "schemas/project-state.json": "15d20c53c5b397186a40ff66f1f71059953c465b21599f0794c449347c6d4edb",
+    "schemas/questions.json": "81fc57f18dbb511a9ea670082055a12b4720419bef0827388a2e5c6ceedb9e2b",
+    "schemas/raid.json": "2c32add575283dfc6d3bf0a296c18bacca2c8282bae6b01d8834558673ea8811",
+    "schemas/review-findings.json": "72db003171d5bf34d36ff60530067fd04615e69a55cad6acb87b22d2d1e3d8be",
+    "schemas/stage-result.json": "ca88c11275f586e22c967c283b1a7c1cd845b31413e2e0dadabc3080d4e5c95a",
+    "tests/test_artifacts.py": "539e4e435017105fed4ae7ef723c34d6a2f3721a5c68850ec108d595da5933ec",
+    "tests/test_delivery.py": "6f6ec239b093119eddcfe99634147997c943074e5ebfea306fbac33d05845faf",
+    "tests/test_pipeline.py": "c453e8a48d6c911285fdbf78ed7e705c7c416f1fe2b163bce62df71c1388689e",
+    "tests/test_workflow.py": "1bc390a1d4376207f3d44faf740d82e15460b1db66e3555aa017e97dfe8f96aa"
+  },
+  "full_suite": {
+    "tests": 52,
+    "result": "passed",
+    "seconds": 74.626,
+    "transcript": "delivery-tests.txt",
+    "sha256": "23b463263ee4bf7b4ec0aa37e52078ce80a104c32011987beeef427444aa84fd"
+  },
+  "independent_review": {
+    "path": "../../reviews/delivery-review.md",
+    "sha256": "67327433af2dcecaabff9b0622405c8c64c4f2c4aaa8374a960af3369c75b918",
+    "verdict": "pass"
+  },
+  "wheel": {
+    "name": "asdlc-0.2.0-py3-none-any.whl",
+    "sha256": "bf1c3461f08cd5a758fa306fc46e8d5299677d7a5fe0a3cfe93923f75e8fd02b"
+  },
+  "samples": {
+    "real_delivery": "product-delivery-sample.json",
+    "sha256": "b045de9df208b84fb9b9c60ace5bafa5b6349687fc9f9eba4cd8004f0575c087"
+  },
+  "clean_install": {
+    "path": "delivery-install.json",
+    "sha256": "de8ceaf57839855be085c0f68d54b11e5d1e754f59a275bad95d926b385eb857"
+  },
+  "human_acceptance": false,
+  "live_project_activation": false,
+  "publication": false
+}

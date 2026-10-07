@@ -1,0 +1,35 @@
+{
+  "id": "APPROVAL-LIFECYCLE-001",
+  "record_type": "documentation_approval",
+  "decision": "approved",
+  "human_actor": "user",
+  "human_action_date": "2026-10-06",
+  "recorded_at": "2026-10-06T22:09:31+00:00",
+  "authorization": {
+    "source": "direct user message in this Codex chat",
+    "text": "approve that",
+    "resolved_reference": "Earlier serial-orchestration increment identified in the immediately preceding assistant response"
+  },
+  "presented_report": "../sprints/lifecycle-report.md",
+  "presented_report_sha256": "f7838d898f698c328759c09ab3449b3d9779dc99b4c9888ce2f93416e0bcfdf1",
+  "original_request": "lifecycle-review-request-41ca10c5ac290b29f4fa634fce5ff73c9181a42b63a5a4bc458a9e154737d6fe.json",
+  "original_request_sha256": "41ca10c5ac290b29f4fa634fce5ff73c9181a42b63a5a4bc458a9e154737d6fe",
+  "original_package_sha256": "1d78b2340da1ef8a5da90a4218c915558a82445f5fe3db908ed58be9f8f7d693",
+  "targets": [
+    {
+      "path": "../sprints/lifecycle-report-f7838d898f698c328759c09ab3449b3d9779dc99b4c9888ce2f93416e0bcfdf1.md",
+      "sha256": "f7838d898f698c328759c09ab3449b3d9779dc99b4c9888ce2f93416e0bcfdf1"
+    },
+    {
+      "path": "../sprints/evidence/lifecycle-test-run.json",
+      "sha256": "6bf6c60fb3323f478bf275e9e6a8731644de05a47b236214b33abad3ce648750"
+    },
+    {
+      "path": "../reviews/pipeline-code-review.md",
+      "sha256": "66e3302130b802815a044bd59a34f95ca43536e3be95bcc16fc7d410d564eae9"
+    }
+  ],
+  "scope": "Acceptance of serial lifecycle-control behaviour, exact report and evidence within recorded limits. Application coding/test workers, artifact splitting, legacy migration and full product delivery remain outstanding; installed operator assets have separate acceptance.",
+  "runtime_binding": "Documentary increment acceptance only; no live stage transition or publication.",
+  "invalidation": "Approval binds exact retained report, evidence and review bytes. Later source changes remain covered only by their own independent review and acceptance records."
+}

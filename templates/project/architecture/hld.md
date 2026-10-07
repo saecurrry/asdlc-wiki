@@ -68,3 +68,15 @@ Observability, support, recovery, deployment constraints, costs and failure mode
 ## Requirement coverage and exit
 
 Map R-ID → design section → decision → verification. Challenger checks C4 levels, sequences, boundaries, operational feasibility, standards and missing business choices. Review and human approval bind exact inputs/artifact versions.
+
+## Hosting discussion, component selection and sequence inventory
+
+| Option / boundary | Hosting / service / partner | Alternatives | Data owner / movement | Identity / access | Operational trade-off | Decision / question |
+|---|---|---|---|---|---|---|
+
+| View / journey | Requirement / risk | Containers / selected components | Success path | Failure / recovery path | Diagram link | Rationale |
+|---|---|---|---|---|---|---|
+
+Use Level 2 plus selective Level 3 where useful; full component decomposition is not required. Cover environments, deployment, monitoring, support and explicit performance/availability/recovery targets or open questions.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

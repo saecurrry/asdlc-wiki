@@ -1,0 +1,33 @@
+{
+  "scope": "Local design update checks; no full-pipeline automation or acceptance claimed",
+  "source_sha256": "5d771ec0253837f0b58578dc4ae37cabd448ee3d49040005ce1c2abc1c34ee91",
+  "schema_and_example": "valid",
+  "markdown_files_checked": 84,
+  "broken_links": [],
+  "existing_discovery_tests": {
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -v",
+    "executed": true,
+    "tests": 21,
+    "result": "pass"
+  },
+  "runtime_code_changed": false,
+  "live_state_created": false,
+  "manifest": {
+    "planning/requirements.md": "857cd637de3882907339f15a6a103b2e62d451627051e1f83b20dd0f5004dc8d",
+    "planning/architecture.md": "547ac93dbe77ae2991ae3b5cb2a40b47d667a3d0dbbfe391d680c0427c9e932a",
+    "planning/backlog.md": "1d08dfa0362dc1906f55f0d5ec999c62ea407c48bc5f0c2eada5029bde7b9e45",
+    "prompts/architecture.md": "33a4a20f0065c481dd6aaaa5505b7fdc0f5fe045c7e64e77a153255cffbd4477",
+    "prompts/business-requirements.md": "9b7c2bfe50c1706922d6e9a22e9ca5e60306605584e77e00480ae8280df49cd5",
+    "prompts/challenger.md": "eb3aad405dab2ee5772cc495e652079d8adb2a727c5606b1444c252f5ae9e91a",
+    "prompts/development.md": "63d65c5cbaf2d1be3258af364d2a194f55b0bed00d72434cd82c90bea864b9c6",
+    "prompts/discovery.md": "aaaf965b08feb7e9cacf01c196242148cf6614efb75bd3388e32d0e473f4faa0",
+    "prompts/orchestrator.md": "9c9a5f5e09fe81efaeb658672ece60a929a4b438472df31c22cb3aebea2cfcdb",
+    "prompts/sprint-planning.md": "7b247c1d9e68ad11984c293ae763ef0323a276cb53a8d0b3b5ed16b8f0a7f81c",
+    "prompts/sprint-review.md": "210c784757cca4b42f0e9c87315cdfb72fa85918f1d1cd2590873dfcb7b9b63d",
+    "prompts/testing.md": "d7904081102c030e7e02bd116df2486e189607fd4c8a753817c70e20b2a6344c",
+    ".asdlc-local/asdlc-wiki/projects/asdlc/state/pipeline-contract.md": "baace20edd351e2c8059ebe267305f974752f38f3b42028d10160f2baa935a3f",
+    ".asdlc-local/asdlc-wiki/projects/asdlc/state/pipeline-state.schema.json": "3c1233d2676203e9d3a46b8b67921d10bd4aeea17060891c54a3e3f370b2e71d",
+    ".asdlc-local/asdlc-wiki/projects/asdlc/state/pipeline-state.example.json": "2a0bf162823857b7dd4315a377c323b9fd3fac12aef3cee3f36ea3f0409d6342",
+    ".asdlc-local/asdlc-wiki/templates/examples/worked-artifacts.md": "93d6945c6083c65f04fb74084b6a4f44d8df18f1f7caea25d9af25be25a7a6f3"
+  }
+}

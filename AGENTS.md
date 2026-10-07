@@ -14,7 +14,7 @@ ASDLC's supplied requirements are already established. Do not restart its busine
 
 ## Storage and ownership
 
-Canonical runtime data is projects/<id>/state.json, schema version 1, created by the tool. state/ documents the contract; legacy split JSON templates are archived and never executable. Current runtime executes serial discovery only. Later-stage Markdown contracts do not enable later-stage dispatch.
+Canonical runtime data is projects/<id>/state.json, created by the tool. Schema v1 is legacy discovery; schema v2 controls all seven serial stages, independent challenge, exact human approvals and handoff. state/ documents the contract; legacy split JSON templates are archived and never executable. Built-in Codex workers remain read-only and propose exact UTF-8 changes. The orchestrator validates approved sprint write/test contracts, executes checks on a source copy and applies matching proposals. Separate initiative/epic/story views are generated. Delivery increment review/acceptance is tracked in project status; fixture execution is not live acceptance.
 
 Only the orchestrator writes canonical state, approval records, transitions and generated project-status.md/raid.md. Workers return structured proposals; reviewers return findings. Use schema/revision/dispatch/digest checks and a kernel lock; never make direct JSON edits to bypass a gate. Archive human draft views before authorised init replaces them. Preserve previous source artifacts/reviews/evidence; do not overwrite historical baselines.
 
@@ -22,7 +22,7 @@ Only the orchestrator writes canonical state, approval records, transitions and 
 
 Use templates/ for focused artifact contracts. Use stable IDs, YAML frontmatter, portable relative links and Mermaid for useful diagrams. Keep facts, proposed assumptions, unknowns and decisions visibly distinct. Document required inputs, permitted actions, outputs, evidence and exit criteria. Link outcome → requirement → epic → story → test → exact change. Document dates only when the event actually happened.
 
-For stage corrections, supply approved inputs and previous draft/findings explicitly as historical context; never treat stale artifacts as current approvals. Reviewers may pass with no findings. Material findings return to the owner; missing business choices return to the human. Two automatic repair rounds maximum, then escalate unresolved material findings. Author completion and reviewer pass never imply human acceptance.
+For stage corrections, supply approved inputs and previous draft/findings explicitly as historical context; never treat stale artifacts as current approvals. Reviewers may pass with no findings. Material findings return to the owner; missing business choices return to the human. Current foundation caps at two repairs as a proposed implementation default. Extensions require a reviewed versioned retry/escalation policy; unresolved material findings hold on exhaustion. Author completion and reviewer pass never imply human acceptance.
 
 ## Knowledge maintenance
 

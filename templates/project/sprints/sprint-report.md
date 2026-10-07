@@ -35,3 +35,5 @@ Link project lessons, next actions and scope changes. Shared promotion requires 
 ## Recommendation and human gate
 
 Recommend proceed / proceed_with_conditions / hold with evidence and explicit conditions. Default while unassessed: hold. Distinguish agent recommendation, independent pass and human acceptance. Record actual approver/action/date and exact versions; leave acceptance pending until it occurs.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.

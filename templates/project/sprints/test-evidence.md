@@ -36,3 +36,5 @@ Record each separately with reason/impact. Fake adapter tests demonstrate engine
 ## Integrated readiness
 
 Describe how checks validate the combined increment, not merely isolated changes. Changed code/input versions invalidate affected evidence. Challenger checks executed provenance, coverage and unresolved defects; this artifact grants no human acceptance.
+
+Worked examples: [synthetic artifact set](../../examples/worked-artifacts.md). Examples confer no real execution or acceptance.
